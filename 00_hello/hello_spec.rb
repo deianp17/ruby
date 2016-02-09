@@ -112,7 +112,9 @@
 #     def greet(who)
 #       "Hello, #{who}!"
 #     end
-#
+
+
+
 require "hello"
 
 describe "the hello function" do
@@ -130,3 +132,11 @@ describe "the greet function" do
     greet("Bob").should == "Hello, Bob!"
   end
 end
+
+def hello
+	"sadas?"
+end
+
+include spec_helper.rb 
+
+
